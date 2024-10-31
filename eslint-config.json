@@ -1,9 +1,4 @@
 {
-  "env": {
-    "browser": true,
-    "es2021": true,
-    "node": true
-  },
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
@@ -28,6 +23,12 @@
     "@typescript-eslint"
   ],
   "rules": {
+    "no-await-in-loop": "error",
+    "no-constructor-return": "error",
+    "no-duplicate-imports": "error",
+    "no-promise-executor-return": "error",
+    "no-self-compare": "error",
+    "no-use-before-define": "error",
     "react/prop-types": "off",
     "react/jsx-no-leaked-render": "error",
     "react/jsx-no-bind": "off",
